@@ -21,7 +21,7 @@ def download_rels_ext_datastream_for_pids(session, pids, output_folder, encoding
 if __name__ == "__main__":
     # Create an Islandora Session
     s = IslandoraSession()
-    s.login("hemat", "Chennai@42035061")
+    s.login("USERNAME", "PASSWORD")
 
     # Load PIDs from a text file
     pid_file_path = "PIDS_FILENAME.txt"
